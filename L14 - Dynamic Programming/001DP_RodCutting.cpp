@@ -92,7 +92,7 @@ int fTopdown(int n, const vector<int>& p, vector<int>& dp) {
 }
 
 // time :O(n^2)
-// space: O(n)
+// space: O(n) due to dp[]
 
 int fBottomUp(int n, const vector<int>& p) {
 
