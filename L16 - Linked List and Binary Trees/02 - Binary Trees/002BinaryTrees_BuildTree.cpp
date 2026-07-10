@@ -44,6 +44,9 @@ void printPreOrder(TreeNode* root) {
 
 }
 
+// time : O(n)
+// space: O(height of the tree)
+
 TreeNode* buildTree() {
 
 	int val; cin >> val;
